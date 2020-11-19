@@ -1,0 +1,44 @@
+body{
+  background: url("/static/images/black.jpg")
+}
+label{
+  margin-right: 5px;
+  font-family: Courier;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+input{
+  /* background-color: #ebebeb; */
+  border: none;
+   background-color: lightgrey;
+
+}
+.sbm{
+  border: none;
+  font-family: Courier;
+  border: 5px solid #60de50;
+  border-radius: 5px;
+  background-color:#60de50;
+  color:#303030;
+  font-weight: bold;
+  margin-right: 170px;
+}
+.reserveform{
+  width: 300px;
+  margin: 0 auto;
+  /* border-bottom:  4px solid green; */
+  padding: 10px;
+  border-bottom:  4px solid lightgrey;
+  border-top:  4px solid lightgrey;
+border-radius: 20px;
+
+}
+.sbm:hover{
+  transform: scale(1.1,1.1);
+  transition: 0.5s;
+}
+.banner{
+  height: 70px;
+
+}

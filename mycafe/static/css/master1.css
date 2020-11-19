@@ -1,0 +1,369 @@
+html{
+  scroll-behavior: smooth;
+}
+.exmp1{
+  background-image: url('ReaderzCafe.png');
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+    }
+
+label{
+  color:white;
+  font-weight: bold;
+  font-size: 150%;
+  font-family: Courier;
+}
+input{
+  background: none;
+  border: none;
+  border-bottom: 3px solid darkgrey;
+}
+h1{
+  color: white;
+  font-family: Courier;
+  /* font-weight: bold; */
+  font-size: 200%;
+  letter-spacing: 2px;
+  /* text-shadow: 2px 2px 10px red; */
+}
+
+#btn1{
+  font-family: Courier;
+}
+.a1:hover{
+/* background-color: #C0C0C0; */
+transform: scale(1.1,1.1);
+
+}
+a{
+  font-family: Courier;
+  font-size: 100%;
+  
+}
+
+
+
+.myservices{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Poppins',sans-serif;
+  background-color:#F2F4F4 ;
+}
+
+.mycontainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.mycontainer .mybox{
+  position: relative;
+  width: 350px;
+  padding: 40px;
+  background: #fff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, .1);
+  border-radius: 4px;
+  margin: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+}
+
+.mycontainer .mybox .myicon{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0 auto;
+  border-radius: 50%;
+  font-size: 40px;
+  font-weight: 700;
+  transition: 1s;
+}
+
+.mycontainer .mybox:nth-child(1) .myicon{
+
+  box-shadow: 0 0 0 0 #e91e63;
+  background: #e91e63;
+}
+.mycontainer .mybox:nth-child(1):hover .myicon{
+
+  box-shadow: 0 0 0 400px #e91e63;
+
+}
+
+.mycontainer .mybox:nth-child(2) .myicon{
+
+  box-shadow: 0 0 0 0 #23e629;
+  background: #23e629;
+}
+.mycontainer .mybox:nth-child(2):hover .myicon{
+
+  box-shadow: 0 0 0 400px #23e629;
+
+}
+.mycontainer .mybox:nth-child(3) .myicon{
+
+  box-shadow: 0 0 0 0 #2196f3;
+  background: #2196f3;
+}
+.mycontainer .mybox:nth-child(3):hover .myicon{
+
+  box-shadow: 0 0 0 400px #2196f3;
+
+}
+.mycontainer .mybox .mycontent{
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+}
+.mycontainer .mybox:hover .mycontent{
+  color: #fff;
+}
+.mycontainer .mybox .mycontent h3{
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 0;
+}
+.mycontainer .mybox .mycontent p{
+  margin: 0;
+  padding: 0;
+
+}
+.mya{
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+
+}
+
+.mycontainer .mybox::before{
+  content: '' ;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, .2);
+  z-index: 2;
+  pointer-events: none;
+}
+
+h2{
+  text-align: center;
+  font-family: Courier;
+  font-weight: bold;
+  letter-spacing: 5px;
+  background-color: #fff761;
+  color: #212121;
+}
+
+.where-heading{
+  text-align: center;
+  font-family: Courier;
+  border: 2px solid black;
+  background-color: #2b2a2a;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.wheretofindus{
+  padding-top: 10px;
+    background-color: #f5f5f5;
+    margin: auto;
+}
+.myaddress{
+  margin-left: 120px;
+  font-family: Courier;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.about-heading{
+  text-align: center;
+  font-family: Courier;
+  /* border: 2px solid black; */
+  background-color: #424242;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: bold;
+
+}
+.aboutus{
+  background-color: #f5f5f5;
+  font-family: Courier;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 20px;
+}
+.inpt{
+  color:white;
+  font-family: Courier;
+}
+.inptfrm{
+
+  width: 250px;
+
+}
+.frm1{
+
+  margin-top: 50px;
+  margin-right: 50px;
+
+}
+.contact-heading{
+  text-align: center;
+  font-family: Courier;
+  /* border: 2px solid black; */
+  background-color: #424242;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+#reserveinfo{
+  font-family: Courier;
+  font-size: 20px;
+}
+#bannerimg{
+  height: 50px;
+  width: 250px;
+}
+.a1{
+  color: white;
+}
+#ourservices{
+  background-color: #4d4d4d ;
+  color: white;
+}
+.mylist{
+  margin-right: 160px;
+}
+.subcont{
+  background-color: #F2F4F4;
+  color: black;
+  text-align: center;
+  border: 10px double #424242 ;
+  border-radius: 5px;
+}
+#newsletter{
+  font-size: 40px;
+  margin-bottom:  10px;
+  font-family: Courier;
+
+
+}
+.btnsub{
+
+  font-family: sans-serif;
+}
+footer{
+  text-align: center;
+  color: black;
+  font-size: 25px;
+font-family: Courier;
+
+
+}
+#instalogo{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+#fblogo{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+#twitterlogo{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+#linkedinlogo{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.socialsites{
+  border: 2px solid black;
+}
+.carousel-item{
+    height: 500px;
+
+}
+.carousel-item img{
+    height: 500px;
+    width: 500px;
+
+}
+#gallery{
+  text-align: center;
+}
+#instalogo:hover{
+  transform: scale(1.3,1.3);
+  transition: 0.5s;
+
+}
+#fblogo:hover{
+  transform: scale(1.3,1.3);
+  transition: 0.5s;
+}#twitterlogo:hover{
+  transform: scale(1.3,1.3);
+  transition: 0.5s;
+}#linkedinlogo:hover{
+  transform: scale(1.3,1.3);
+  transition: 0.5s;
+}
+.foot{
+  background-image: url('s1.jpg');
+}
+#btngo{
+  border: 2px solid #41C743  ;
+  background-color: #41C743  ;
+  color: white;
+  border-radius: 10px;
+  font-family: Courier;
+  font-size: 20px;
+  font-weight: bold;
+  width: 150px;
+  height: 40px;
+}
+.gal{
+  background-image: url('s1.jpg');
+}
+#btngo:hover{
+  transform: scale(1.05,1.05);
+  transition: 0.5s;
+  background-color: #2C972E ;
+}
+#info{
+  color: #868686 ;
+}
+#reservelink{
+border: 4px solid lightblue;
+font-weight: bold;
+
+}
+* {
+  box-sizing: border-box;
+}
+#wplogo{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
